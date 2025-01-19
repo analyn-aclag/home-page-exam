@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">   
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+	<!-- Google Fonts -->
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    
+	
+	<!-- External CSS -->
+	<link rel="stylesheet" href="./index.css">
+	<title>AnneQ.</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg sticky-top">
+		<div class="container-fluid text-white" >
+			<a href="#landing" class=" text-white">
+				<img src="./images/aq-transparent.png" class="d-inline-block align-text-top me-3" id="anneq-logo"> Legend of Anne.
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+				<span class="navbar-toggler-icon material-symbols-outlined text-white">menu</span>
+			</button>
+			<div class="collapse navbar-collapse text-white" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item mx-3">
+						<a class="nav-link active" aria-current="page" href="#landing">Home</a>
+					</li>
+					<li class="nav-item mx-3">
+						<a class="nav-link" aria-current="page" href="#heroes">Hero Section</a>
+					</li>
+					<li class="nav-item mx-3">
+						<a class="nav-link" href="#battleground">Battleground</a>
+					</li>
+					<li class="nav-item mx-3">
+						<a class="nav-link" href="#contact">Log In Page</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	
+	<section id="landing" class="container-fluid d-flex justify-content-center">
+		<div class="row pt-5 ">
+			<div class="col-12 text-center d-flex flex-column justify-content-center">
+				<h1 id="title" class="text-white fs-1 mb-5">THE LEGEND OF ANNE</h1>
+				<h5 class="text-white fs-2">Step into a world where elemental powers shape destiny. Join Anne and her allies as they master fire, water, earth, and air to restore balance and save their world from impending chaos. Will you rise to the challenge?</h5>
+			</div>
+			<div class="col-12 text-center justify-content-center">
+				<a href="#heroes">
+					<button type="button" class="btn btn-outline-light btn-sm mt-2">Get Started</button>
+				</a>
+			</div>
+		</div>
+	</section> <!-- landing -->
+	
+	
+	<section id="heroes" class="container-fluid vh-100">
+		<div class="row d-flex justify-content-center align-items-center">
+			<div class="col-md-4 col-sm-12 col-lg-5 order-md-2 my-5 py-5" >
+				<h1 class="mb-3">Hero Section</h1>
+				<!-- <h3 class="mb-3">I'm Anne Quintos.</h3>
+				<h5 class="mb-3">A Full Stack Web Developer.</h5>
+				<div class="circle mx-5 pe-5 mb-5 float-md-end d-flex">
+					<img src="./images/anneq.png" class="">
+				</div> -->
+				
+				<p class=" pt-2">
+					In a world where the balance of the elements ensures harmony, the ancient Crystal of Unity has been shattered, unleashing chaos across the realms. Anne, a courageous young warrior with the power to channel the elements, sets out to restore balance. Along the way, she gathers allies—masters of wind, water, fire, and earth—each with their unique abilities and destinies intertwined with the elements they control. 
+				</p>
+				<p class="mt-4">
+					As Anne and her team journey through perilous terrains, battle corrupted elemental guardians, and uncover ancient secrets, they must solve riddles and trials left by the ancient Elemental Council. Only by mastering their powers and uniting the fragments of the Crystal can they defeat the looming shadow that seeks to consume the world.
+				</p>
+            </div>
+            <div id="carouselAlbum3" class="carousel slide py-5 col-sm-12 col-md-6 mt-5" data-bs-ride="carousel">
+                <div class="carousel-indicators mb-5 pb-3">
+                    <button type="button" data-bs-target="#carouselAlbum3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselAlbum3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselAlbum3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselAlbum3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselAlbum3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+            
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/water.png" class="img-fluid mx-auto d-block" alt="Water">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Water</h5>
+                            <p>The calm and fluid master of water.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/fire.png" class="img-fluid mx-auto d-block" alt="Fire">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fire</h5>
+                            <p>The fierce and passionate wielder of flames.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/earth.png" class="img-fluid mx-auto d-block" alt="Earth">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Earth</h5>
+                            <p>The strong and steadfast guardian of the land.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/wind2.png" class="img-fluid mx-auto d-block" alt="Wind">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Wind</h5>
+                            <p>The swift and agile master of the skies.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/ligtning.png" class="img-fluid mx-auto d-block" alt="Lightning">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lightning</h5>
+                            <p>The electric and unpredictable force of nature.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <button class="carousel-control-prev me-5" type="button" data-bs-target="#carouselAlbum3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+            
+                <button class="carousel-control-next me-5" type="button" data-bs-target="#carouselAlbum3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+		</section>
+
+				<p class="mt-5">
+					<a href="#battleground">
+						<button type="button" class="btn btn-outline-light btn-sm mt-2">Let's Dive In!</button>
+					</a>
+				</p>
+			</div>
+		</div>
+	</section> <!-- heroes -->
+	
+<section id="battleground" class="container-fluid">
+	<h1 class="text-center py-5">Battle Grounds</h1>
+	<div class="row justify-content-center bg-light">
+
+        <div class="card col-md-5 col-sm-12 col-lg-4 mx-auto mt-1 " style="width: rem;">
+            <img src="./images/earthbattle.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Earth Battleground</h5>
+              <p class="card-text">Treacherous terrain filled with steep cliffs, rocky outcrops, and hidden crevices.  The only sounds are the distant rumble of thunder and the creaking of twisted, ancient trees.</p>
+              <a href="#contact" class="text-dark"> Log In</a></small>
+            </div>
+        </div>
+
+        <div class="card col-md-5 col-sm-12 col-lg-4 mx-auto mt-1 " style="width: rem;">
+            <img src="./images/lightningbattle.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lightning Battleground</h5>
+              <p class="card-text">An electrifying arena where the air crackles with energy, and lightning strikes illuminate the battlefield, challenging warriors with its unpredictable fury.</p>
+              <a href="#contact" class="text-dark"> Log In</a></small>
+            </div>
+        </div>
+
+	</div>
+
+	
+</section> <!-- battleground -->
+
+
+<section id="contact"  class="container-fluid " >
+	<div class="row my-5 py-5">
+		<div class="col-md-6 col-lg-6 col-sm-12 text-center text-white flex-column d-flex justify-content-center align-items-center" id="contact-image">
+			<!-- social media -->
+			<h4 id="social-header" class="mb-5">Connect with other players!</h4>			
+			<!-- <div class="row">
+				
+				<div class="col-12 mt-5 pt-1 d-flex justify-content-center align-items-center">
+
+					<div class="row">
+						<div class="col-4 "> -->
+							<a href="https://discord.com/">
+								<img src="./images/discord.png" class="img-fluid w-50">
+							</a>
+							
+						<!-- </div>
+					</div>
+				</div>	
+			</div> -->
+		</div>
+		<div class="col-md-6 col-lg-6 col-sm-12 p-5" id="contact-form">
+			<!-- form -->
+			<h2 class="pt-5 pb-3">
+				Sign In/ Log In
+			</h2>
+			<p class="mt-2 mb-3">
+
+			</p>
+			<form class="mt-3">
+				<div class="form-group my-4">
+				<label for="exampleFormControlInput1">Username</label>
+				<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+				</div>
+				<div class="form-group my-4">
+				<label for="exampleFormControlInput1">Email address</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="john.doe@email.com">
+				</div>
+				<div class="form-group my-4">
+				<label for="exampleFormControlInput1">Password</label>
+				<input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password">
+				</div>
+				<div class="my-5 d-flex justify-content-end">
+				<button id="form-btn" class="btn btn-outline-light btn-md mt-2">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</section> <!-- contact -->
+
+
+<section id="footer" class="container-fluid">
+	<div class="row">
+			<div class="col-9 text-white me-auto">
+				All rights reserved. AppBuilding, Analyn Quintos, 2025.
+			</div>
+			<div class="col-3 me-auto text-end">
+				<a href="#landing" class="text-light">Back To Top</a>
+			</div>
+	</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
