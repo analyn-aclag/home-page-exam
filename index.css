@@ -29,7 +29,7 @@
 
 
 
-#heroes {
+#hero {
     /* height: 100vh; */
     font-family: 'Quicksand';
     background: linear-gradient(to right, rgba(233, 36, 200, 0.8) -50%, rgba(17, 1, 59, 0.904) 50%, rgb(6, 0, 35) 100%);
@@ -39,21 +39,6 @@
 .carousel-inner img {
     height: 100%;
     object-fit: cover; /* Ensures the image scales to fill the container */
-}
-
-.circle {
-    width: 55vh;
-    height: 55vh;
-    border-radius: 50%;
-    /* float: right; */
-    /* display: flex; */
-    overflow: hidden;
-    right: -20%;       
-}
-
-
-.circle img {
-    object-fit: cover;
 }
 
 #projects,
